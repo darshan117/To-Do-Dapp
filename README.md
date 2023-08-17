@@ -1,13 +1,3 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+# To do Dapp
+this is a decentralised to do application where only the owner of the contract can add and see the tasks in the to do app
+in order to use it check the info tab in the website to-do-dapp.netlify.app and use the burner address to check out the app
