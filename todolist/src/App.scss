@@ -1,0 +1,68 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@font-face {
+  font-family: 'Bangers', cursive;
+  src: url('./Bangers-Regular.ttf');
+}
+.whole{
+
+}
+.wrapper-div{
+  position:relative;
+  margin-top: 10%;
+  width:70%;
+  align-content: center;
+  
+
+
+}
+.reveal{
+  width: 28rem;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.add-task{
+
+  border-radius: 20px;
+}
+.header{
+  text-align: center;
+}
+.main-task{
+  backdrop-filter: sepia(90%);
+  background-color: #9FB4C7;
+  border-color: transparent;
+}
+.item{
+  border-radius: 20px;
+  backdrop-filter: sepia(90%);
+  color: white;
+}
+.backdrop{
+  color:white;
+  background: rgba(197, 160, 160, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.3px);
+-webkit-backdrop-filter: blur(12.3px);
+border: 1px solid rgba(197, 160, 160, 0.3);
+
+z-index: 1;
+}
+.checkbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.row{
+  justify-content: center;
+}
+.bodydiv{
+
+}
+.navigation-bar{
+  
+  margin-bottom: 10px;
+
+}

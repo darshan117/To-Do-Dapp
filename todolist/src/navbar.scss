@@ -1,0 +1,65 @@
+.app{
+    color:white
+}
+
+#nav-link-tag{
+    
+    display: flex;flex-direction: column;
+justify-content: center;}
+a::selection {
+  color: #ffffff; /* Change the text color of the selection */
+  background-color: #a15050; }
+p{
+    margin-left:10px;
+    margin-top:16px;
+}
+
+.heading{
+    color:white;
+    font-size: 30px;
+}
+.connected{
+    color:white;
+}
+.bi{
+    color:white;
+    width: 10px;
+}
+.svg{
+    border-color: white;
+    color:greenyellow;
+}
+.navbar{
+    position:top;
+    margin-bottom:10px;
+    border-radius: 40%;
+  &::selection {
+  color: #ffffff; /* Change the text color of the selection */
+  background-color: #a15050; }
+    display: flex;
+    justify-content: space-between;
+    button{
+        margin-right:30px;
+    }
+/* From https://css.glass */
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(197, 160, 160, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.3px);
+-webkit-backdrop-filter: blur(12.3px);
+border: 1px solid rgba(197, 160, 160, 0.3);
+padding: 10px 30px;
+z-index: 1;
+}
+img{
+    width:22px;
+    margin-bottom:2px;
+}
+svg{
+    color: green;
+    margin-bottom: 2px;
+    margin-right:2px;
+    width: 10px;
+}
